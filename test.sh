@@ -26,7 +26,7 @@ function my-lookup(){
 		else
 			#else if does exist display error
 
-			echo -e "\n\0333[0;31m$textfile does not exist\n\n\033[0;32mProvide text file to search for name."
+			echo -e "\n$textfile does not exist; Provide text file to search for name."
 		fi
 	else
 		echo -e "\n\nTwo arguments are needed for this script to work.\n\n"
