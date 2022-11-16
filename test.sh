@@ -1,3 +1,9 @@
+############################################
+# CMPS4232 - Systems Administration
+# Federico Rosado
+# Test 2
+###########################################
+
 #!/bin/bash
 
 function my-lookup(){
@@ -23,7 +29,8 @@ function my-lookup(){
 			echo -e "\n\0333[0;31m$textfile does not exist\n\n\033[0;32mProvide text file to search for name."
 		fi
 	else
-		echo -e "\033[0;31m\n\nTwo arguments are needed for this script to work.\n\033[0;32mCommand: my-lookup <textfile> <last name to search>"
+		echo -e "\n\nTwo arguments are needed for this script to work.\n\n"
+		echo -e "Command: my-lookup <textfile> <last name to search>\n"
 
 	fi
 }
